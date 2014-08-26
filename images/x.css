@@ -1,0 +1,47 @@
+#scroll {
+    border:none;
+    width:1266px;
+    height:320px;
+	position:absolute;
+	left:173px;
+	top:556px;
+}
+#scroll div.items {
+	overflow: hidden; 
+	position: relative; 
+	visibility: visible;
+    height:320px;
+    float:left;
+    width:1176px !important;
+}
+#scroll div.scroll_demo{
+	 position: absolute;
+	 width: 200000em;
+	 left: -15px;
+}
+#scroll div.items li {
+    display:block;
+    float:left;
+    width:370px;
+    height:318px;
+	margin:0 15px;
+	border:1px #3c73a0 solid;
+}
+#scroll a.prev, a.next {
+    background:url(left.png) no-repeat 0 -1px;
+    display:block;
+    width:45px;
+    height:320px;
+    float:left;
+}
+#scroll a.next {
+    background-image:url(right.png);
+}
+#scroll a.prev:focus, a.next:focus{
+	outline:none;
+	border:none;
+}
+#scroll div.items li>div{
+	width:100%;
+	height:100%;
+}

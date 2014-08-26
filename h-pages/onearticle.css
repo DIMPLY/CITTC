@@ -1,0 +1,166 @@
+@media(max-height:985px){
+}
+
+#header .nav li:nth-child(7)
+{
+	color:rgb(160,160,160);
+}
+
+#list-body{
+	width:779px;
+	margin:31px 42px 39px;
+	float:left;
+}
+
+#list-side{
+	width:325px;
+	float:left;
+	margin:59px 47px auto 32px;
+}
+
+#list-body>h3{
+	font:20px "黑体";
+	color:#1c1c1c;
+	margin-top:29px;
+	margin-bottom:29px;
+}
+
+#list-body>h4 {
+  font-size: 24px;
+  font-family: "黑体";
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-top:19px;
+  margin-bottom:13px;
+}
+#list-body>div.author {
+	font:14px "黑体";
+	color:#585858;
+	margin-bottom:10px;
+}
+#list-body>div.author>output {
+	padding-left:1em;
+	padding-right:3em;
+}
+#list-body>article>p{
+  font-family: "黑体";
+  font-size: 16px;
+  text-align:justify;
+  color: rgb(40, 40, 40);
+  line-height: 2.25;
+  text-indent: 32px;
+}
+
+#list-side li{
+	width:322px;
+	height:27px;
+	list-style:square inside;
+	color:#63a1d7;
+	border-bottom:1px solid #e1e1e1;
+	padding-top:12px;
+	font:14px "黑体";
+}
+#list-side li>a{
+	color:#383f45;
+}
+
+#list-body>article{
+	clear:right;
+}
+div.share {
+	width:225px;
+	height:31px;
+	float:right;
+	font:13px "黑体";
+	margin-top:50px;
+}
+
+div.share>span{
+	background:url(share_times.png);
+	width:25px;
+	height:16px;
+	display:inline-block;
+	padding-left:17px;
+}
+div.share>img{
+	vertical-align:top;
+}
+
+div.add-comment{
+	width:774px;
+	height:153px;
+	background:#dae7f1;
+	clear:right;
+	margin-top:35px;
+}
+div.add-comment>textarea{
+	margin:14px 12px auto;
+	width:750px;
+	height:90px;
+	border:none;
+	border-radius:3px;
+	resize:none;
+}
+div.add-comment>img{
+	padding-top:11px;
+	padding-right:13px;
+	float:right;
+}
+div.add-comment>p{
+	padding-top:13px;
+	font:15px "黑体";
+	color:#717b80;
+	padding-left:11px;
+}
+div.add-comment>p>output{
+	color:#2692c8;
+}
+div.comments li{
+	width:775px;
+	height:118px;
+	border-bottom:1px solid #d5e0e6;
+}
+div.comments>p{
+	color:#0a0a0b;
+	font:15px "黑体";
+	margin-bottom:5px;
+	margin-top:23px;
+}
+div.comments li>img{
+	margin-top:19px;
+	float:left;
+}
+div.comments li>div{
+	float:left;
+	margin-top:19px;
+	margin-left:15px;
+	width:687px;
+	height:58px;
+	margin-right:15px;
+	font:14px "黑体";
+	color:#3d3d3d;
+  line-height: 1.714;
+}
+
+div.comments li>div>p{
+	font-size:15px;
+	color:#242729;
+  line-height: 1.6;
+}
+div.comments li>time{
+	display:block;
+	clear:left;
+	float:left;
+	margin-left:73px;
+	margin-top:19px;
+	font:14px "黑体";
+	color:#787878;
+}
+div.comments li>a{
+	margin-top:18px;
+	display:block;
+	float:right;
+	clear:left;
+	font:14px "黑体";
+	color:#2692c8;
+}

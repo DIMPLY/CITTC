@@ -1,0 +1,66 @@
+@media(max-height:985px){
+}
+
+#header .nav li:nth-child(3)
+{
+	color:rgb(160,160,160);
+}
+
+#list-body{
+	width:779px;
+	height:1310px;
+	margin:31px 42px 39px;
+	float:left;
+}
+
+#list-side{
+	width:325px;
+	height:1321px;
+	float:left;
+	margin:59px 47px auto 32px;
+}
+
+#list-body>h3{
+	font:20px "黑体";
+	color:#1c1c1c;
+	margin-top:29px;
+	margin-bottom:29px;
+}
+
+#list-body>h4 {
+  font-size: 18px;
+  font-family: "黑体";
+  color: rgb(38, 123, 192);
+  text-align: left;
+  margin-bottom:21px;
+  margin-top:29px;
+}
+
+#list-body>p{
+  font-size: 14px;
+  font-family: "黑体";
+  color: rgb(56, 63, 69);
+  line-height: 1.857;
+}
+
+#agency-cat-title{
+	font-size:18px;
+}
+
+#list-side>dl{
+	color:#292929;
+	font:16px "黑体";
+}
+#list-side dt{
+	float:left;
+	clear:left;
+	width:78px;
+	height:23px;
+	padding-top:8px;
+}
+#list-side dd{
+	float:left;
+	height:23px;
+	padding-top:8px;
+	width:auto;
+}

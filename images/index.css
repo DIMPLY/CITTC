@@ -1,0 +1,237 @@
+/* CSS Document */
+#header .nav li:first-child
+{
+	color:#63A1D7;
+}
+#buttons{
+	position:absolute;
+	top:204px;
+	left:1284px;
+	width:125px;
+	height:276px;
+	z-index: 500;
+}
+#buttons>li{
+	font-size: 16px;
+	font-family: "Microsoft YaHei";
+	color: rgb(90, 90, 90);
+	text-align: left;
+	width: 64px;
+	height: 16px;
+	padding:12px 50px 18px 11px;
+	background:url(index_button.png);
+	cursor:pointer;
+}
+#buttons>li:hover{
+	background:url(index_button_hover.png);
+	color:#3399cc;
+}
+#buttons>li.current{
+	background:url(index_button_hover.png);
+	color:#3399cc;
+}
+#buttons>li:last-child{
+	background:url(index_button_last.png);
+}
+#main{
+	overflow:hidden;
+}
+
+div.content{
+	overflow:hidden;
+	width:1267px;
+	height:788px;
+	position:absolute;
+	top:112px;
+	left:173px;/* 173px + 1267px */
+}
+div.content.current{
+	
+}
+
+/* CSS for content 1 */
+div.content>*{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#content1>div>div{
+	position:relative;
+	top:105px;
+	left:82px;
+}
+#content2>div>div{
+	position:relative;
+	top:105px;
+	left:132px;
+}
+div.content h1{
+	font-size: 30.43px;
+	font-family: "黑体";
+	color: rgb(66, 66, 66);
+	text-align:center;
+	width: 325px;
+	height: 40px;
+	border-bottom:3px #363636 solid;
+	letter-spacing:1px;
+}
+div.content h2{
+	font-size: 11px;
+	font-family: "HelveticaNeue";
+	color: rgb(54, 54, 54);
+	font-weight: bold;
+	text-align: center;
+	width: 327px;
+	height: 26px;
+	line-height:26px;
+	margin-bottom:3px;
+}
+div.content h3{
+  font-size: 14px;
+  font-family: "黑体";
+  line-height: 23px;
+  text-align: justifyLeft;
+	width: 325px;
+  height: 26px;
+  padding-top:15px;
+}
+div.content h3.first{
+	color:#e60012;
+}
+div.content h3.second{
+	color:#ff4800;
+}
+div.content h3.third{
+	color:#ffad2d;
+}
+div.content p{
+  font-size: 14px;
+  font-family: "黑体";
+  color: rgb(100, 100, 100);
+  line-height: 1.714;
+  text-align: justify;
+  width: 325px;
+  line-height: 22px;
+}
+#content2>div>div>*{
+	width:258px;
+}
+#content2>div>div>h1{
+	letter-spacing:-1px;
+	text-align:justify;
+}
+#content2>div>div>p{
+	text-indent:2em;
+}
+#content3 div.activities_content>div{
+	margin-top:56px;
+	margin-left:299px;
+	width:753px;
+	height:693px;
+	/*background:red;*/
+}
+#content3 div.activities_content>div>div{
+	float:left;
+	margin:7px 9px 8px 8px;
+	border:1px #aaaaaa solid;
+	background:rgba(255,255,255,0.8);
+	width:232px;
+	height:214px;
+}
+#content3 div.activities_content>div>div>img{
+	margin-top:7px;
+	margin-left:9px;
+	width:213px;
+	height:160px;
+	border-bottom:5px solid;
+}
+#content3 div.activities_content>div>div>img.GS{
+	border-color:#e60012;
+}
+#content3 div.activities_content>div>div>img.IC{
+	border-color:#e64600;
+}
+#content3 div.activities_content>div>div>img.TM{
+	border-color:#e67200;
+}
+#content3 div.activities_content>div>div>img.TS{
+	border-color:#e69d00;
+}
+#content3 div.activities_content>div>div>p{
+	margin-left:9px;
+	color:#0068b7;
+	width:213px;
+	line-height:16px;
+}
+#content4>div>div{
+	position:absolute;
+	left:110px;
+	top:101px;
+	width:920px;
+	height:145px;
+}
+#content4 h1{
+	width:274px;
+}
+#content4 h2{
+	width:265px;
+	font-size:12px;
+}
+#content4 p{
+	width:920px;
+	height:56px;
+	border-top:2px solid #707070;
+	border-bottom:2px solid #707070;
+	position:absolute;
+	bottom:0;
+	text-align:right;
+	padding-top:7px;
+}
+
+
+/*黑色半透明图层*/
+#content3{
+	z-index:200;
+}
+.blackmask {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  position: absolute;
+  left: -24px;
+  top: -28px;
+  width: 1440px;
+  height: 900px;
+  z-index:600;
+}
+.blackmask>img{
+	background:black;
+}
+.blackmask>img{
+	position:absolute;
+	left:269px;
+	top:114px;
+	width:937px;
+	height:617px;
+}
+.blackmask>img.closeicon{
+	position:absolute;
+	left:1171px;
+	top:77px;
+	width:35px;
+	height:37px;
+	z-index:601;
+}
+.blackmask>p{
+	position:absolute;
+	left:269px;
+	top:731px;
+	width:604px;
+	height:43px;
+	padding-top:12px;
+	padding-left:3px;
+	color:white;
+	font-size:14px;
+	font-family:"黑体";
+}

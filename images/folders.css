@@ -1,0 +1,138 @@
+#nav_left li:nth-child(3){
+	background:#2c608b;
+}
+
+/* CSS for folders */
+
+#folders{
+	width:1180px;
+	height:497px;
+	left:216px;
+	top:134px;
+	position:absolute;
+}
+.分割线_copy {
+  background-color: rgb(255, 255, 255);
+  opacity: 0.6;
+  position: absolute;
+  left: 1158px;
+  top: 134px;
+  width: 3px;
+  height: 497px;
+  z-index: 63;
+}
+
+#folders div.item{
+	width:235px;
+	height:497px;
+	float:left;
+	overflow:hidden;
+	margin:0 0.5px;
+}
+#folders div.item>div.wrapper{
+	width:235px;
+	height:497px;
+	position:relative;
+	left:0;
+	top:0;
+}
+#folders div.item>div.wrapper>h2{
+	width:100%;
+	padding-top:11px;
+	height:29px;
+	background:#3c73a0;
+	color:white;
+	font-size:18px;
+	font-family:"黑体";
+	text-align:center;
+}
+#folders div.item>div.wrapper>p{
+	font-size:13px;
+	color:#3c73a0;
+	color:#575757;
+	font-family:"黑体";
+	padding:31px 21px;
+	text-indent:1.85em;
+  line-height: 1.72;
+  text-align: justifyLeft;
+}
+#folders div.item:nth-child(1)>div.wrapper{
+	background:url(folders-bg1.png);
+}
+#folders div.item:nth-child(3)>div.wrapper{
+	background:url(folders-bg2.png);
+}
+#folders div.item:nth-child(5)>div.wrapper{
+	background:url(folders-bg3.png);
+}
+#folders div.item:nth-child(7)>div.wrapper{
+	background:url(folders-bg4.png);
+}
+
+#folders div.expanded{
+	width:0px;
+	height:495px;
+	background:white;
+	border:0px solid #3c73a0;
+	float:left;
+	display:block;
+	overflow:hidden;
+}
+#folders div.expanded:nth-child(2){
+}
+
+#folders div.expanded h2{
+	height:25px;
+	width:405px;
+	margin:0 32px 0 33px;
+	color:#12222e;
+	font-size:18px;
+	font-family:"黑体";
+	padding-top:7px;
+}
+	
+#folders div.expanded div.company{
+	width:405px;
+	height:217px;
+	margin:0 32px 0 33px;
+	border:solid #a7a8ac;
+	border-width:1px 0;
+}
+#folders div.expanded div.company>img.champion{
+	float:right;
+}
+#folders div.expanded div.company>img.comp-logo{
+	padding-top:23px;
+}
+#folders div.expanded div.company>h3{
+	padding-top:22px;
+  font-size: 18px;
+  font-family: "黑体";
+  color: black;
+  text-align: left;
+}
+#folders div.expanded div.company>p{
+	clear:right;
+	padding-top:12px;
+  font-size: 13px;
+  font-family: "黑体";
+  color: rgb(95, 95, 95);
+  line-height: 1.615;
+  text-align: justifyLeft;
+  text-indent:2.3em;
+}
+#folders div.expanded div.company>p>a{
+	float:right;
+	color:#4d8eff;
+}
+
+
+#folders div.expanded div.logos{
+	width:420px;
+	height:237px;
+	margin:0 25px;
+}
+#folders div.expanded div.logos>img{
+	float:left;
+}
+

@@ -1,0 +1,51 @@
+#catalog{
+	position:absolute;
+	top:135px;
+	left:218px;
+	width:166px;
+	height:398px;
+	background:white;
+	border:1px #3c73a0 solid;
+}
+
+.title{
+	position:relative;
+	top:0px;
+	left:0px;
+	background:#5a96c8;
+	width:100%;
+	height:40px;
+	color:white;
+	padding-left:1px;
+}
+
+.title span{
+  font-size: 17.958px;
+  font-family: "黑体";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+.title span.more{
+  font-size: 11.972px;
+  font-family: "黑体";
+  color: #b6deff;
+  position: absolute;
+  left:auto;
+  right: 15px;
+  top: 11px;
+}
+#catalog li{
+  padding-bottom:5px;
+  padding-top:3px;
+  font-size: 13px;
+  font-family: "STHeitiSC";
+  color: rgb(98, 98, 98);
+}
+#catalog ul{
+	padding-top:15px;
+	padding-left:17px;
+	padding-right:8px;
+	float:left;
+}

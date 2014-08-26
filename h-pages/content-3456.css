@@ -1,0 +1,132 @@
+/* CSS Document */
+
+@media(max-height:985px){
+}
+
+
+ul#list-categories{
+	width:779px;
+	height:1022px;
+	margin-top:7px;
+	margin-bottom:3px;
+}
+#list-body{
+	width:779px;
+	height:1109px;
+	margin:31px 42px 39px;
+	float:left;
+}
+
+#list-side{
+	width:325px;
+	height:1120px;
+	float:left;
+	margin:59px 47px auto 32px;
+}
+
+ul#list-categories{margin-top:-5px;}
+ul#list-categories>li{
+	width:779px;
+	height:132px;
+	border-bottom:1px solid #e1e1e1;
+	padding-top:13px;
+}
+
+ul#list-categories>li>h4{
+	color:#267bc0;
+	font:16px "黑体";
+}
+
+ul#list-categories>li>img{
+	margin-left:1px;
+	margin-top:12px;
+	float:left;
+}
+
+ul#list-categories>li>time{
+	font:15px "黑体";
+	color:#30363d;
+	padding-top:12px;
+	margin-left:10px;
+	margin-right:10px;
+	display:inline-block;
+}
+
+ul#list-categories>li>span{
+	font:14px "黑体";
+	color:#383f45;
+	padding-top:11px;
+	display:inline-block;
+}
+
+ul#list-categories>li>div{
+	font:14px "黑体";
+	color:#383f45;
+	margin-top:12px;
+	margin-left:10px;
+	width:478px;
+	float:left;
+}
+
+ul#list-categories>li p{
+	padding-top:10px;
+	color:#64a1d7;
+}
+
+ul#list-categories>li>aside{
+	float:right;
+	position:relative;
+	top:50px;
+}
+ul#list-categories>li>aside>span{
+	font:14px "Arial";
+	color:#313539;
+	width:37px;
+	height:17px;
+	text-align:left;
+}
+
+ul#list-categories>li>aside>img{
+	vertical-align:text-bottom;
+}
+
+#list-side li{
+	width:322px;
+	height:27px;
+	list-style:square inside;
+	color:#63a1d7;
+	border-bottom:1px solid #e1e1e1;
+	padding-top:12px;
+	font:14px "黑体";
+}
+#list-side li>a{
+	color:#383f45;
+}
+
+#list-body>div:last-child{
+	height:87px;
+	width:779px;
+	margin-top:28px;
+	font:14px "黑体";
+	color:#44494f;
+}
+#list-body>div:last-child>*{
+	margin:auto 5px;
+}
+#list-body>div:last-child>span{
+	display:inline-block;
+	background:#2692c8;
+	color:white;
+	font:"Helvetica";
+	font-weight:bold;
+	width:28px;
+	height:19px;
+	border:1px solid #63a1d7;
+	text-align:center;
+}
+#list-body>div:last-child>input{
+	width:1.5em;
+	width:33px;
+	height:19px;
+	border:1px solid #bbc5cc;
+}

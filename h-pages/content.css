@@ -1,0 +1,70 @@
+/* CSS Document */
+
+
+div.duct{
+	font-size:14px;
+	color:#267bc0;
+	font-family:"黑体";
+}
+
+#list-body>hr{
+	margin-top:13px;
+	height:1px;
+	border:none;
+	border-top:1px #b8b8b8 solid;
+}
+
+
+#list-side>div.search{
+	width:251px;
+	height:40px;
+	background:url(search_bg.png);
+	cursor:text;
+	float:left;
+}
+#list-side>div.search>input{
+	position:absolute;
+	left:906px;
+	top:67px;
+	width:200px;
+	height:20px;
+	font:12px "黑体";
+	z-index:-1;
+	border:none;
+	color:#505050;
+	background:white;
+}
+#list-side>div.search>input:focus{
+	border:none;
+	outline:none;
+}
+#list-side>div.search>img{
+	position:absolute;
+	left:895px;
+	top:59px;
+	width:251px;
+	height:40px;
+	z-index:500;
+}
+
+#srch-bttn{
+	margin-left:5px;
+	float:left;
+	cursor:pointer;
+}
+#agency-cat-title{
+	width:322px;
+	height:18px;
+	margin:64px 1px 0;
+	padding:4px 0 11px 1px;
+	border-bottom:1px solid #9c9c9c;
+	clear:both;
+	color:#3b3b3b;
+	font:16px "黑体";
+}
+#list-side>ul{
+	width:344px;
+	height:auto;
+	overflow:hidden;
+}
+

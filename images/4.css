@@ -1,0 +1,61 @@
+/* CSS Document */
+
+#infolist{
+	width:365px;
+	height:397px;
+	position:absolute;
+	top:134px;
+	left:1025px;
+	border:1px #3c73a0 solid;
+}
+.title span.subtitle{
+  position:static;
+  font-size: 17.958px;
+  font-family: "黑体";
+  color: rgb(255, 255, 255);
+  float:left;
+  padding: 10px 30px;
+  border-right:1px white solid;
+}
+#list{
+	width:365px;
+	height:258px;
+	background:white;
+}
+#contact{
+	width:365px;
+	height:139px;
+	background:white;
+}
+#list ul{
+	padding:18px 17px;
+}
+#list li{
+  font-size: 13px;
+  font-family: "黑体";
+  color: rgb(98, 98, 98);
+  text-align: left;
+	margin-bottom:7px;
+}
+
+#contact p{
+	width:300px;
+	height:45px;
+}
+#contact img{
+	float:left;
+	padding:15px 15px 5px 20px;
+}
+#contact p span{
+	display:block;
+	width:235px;
+	height:45px;
+  font-size: 13px;
+  font-family: "黑体";
+  color: rgb(98, 98, 98);
+  padding-top:12px;
+  line-height:32px;
+}
+#contact p:nth-child(3) span{
+	line-height:16px;
+}

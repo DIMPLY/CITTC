@@ -1,0 +1,193 @@
+#nav_left li:nth-child(4){
+	background:#2c608b;
+}
+#scroll {
+    border:none;
+    width:1269px;
+    height:741px;
+	position:absolute;
+	left:173px;
+	top:135px;
+}
+#scroll div.items {
+	overflow: hidden; 
+	position: relative; 
+	visibility: visible;
+    height:741px;
+    float:left;
+    width:1179px !important;
+}
+#scroll div.scroll_demo{
+	 position: absolute;
+	 width: 200000em;
+	 left: -15px;
+}
+#scroll div.items li {
+    display:block;
+    float:left;
+    width:371px;
+    height:739px;
+	margin:0 15px;
+	border:1px #3c73a0 solid;
+}
+#scroll a.prev, a.next {
+    background:url(left.png) no-repeat 0 200px;
+    display:block;
+    width:45px;
+    height:741px;
+    float:left;
+}
+#scroll a.next {
+    background-image:url(right.png);
+}
+#scroll a.prev:focus, a.next:focus{
+	outline:none;
+	border:none;
+}
+#scroll div.items li>div{
+	width:100%;
+	height:100%;
+}
+#scroll div.footnote{
+	width:357px;
+	height:20px;
+	background:#315d8c;
+	position:absolute;
+	bottom:0;
+	
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height:auto;
+  text-indent:0;
+  text-align: left;
+  
+  padding-top:1px;
+  padding-left:14px;
+}
+#scroll div.footnote span{
+	margin-right:35px;
+}
+#scroll div.footnote span:last-child{
+	margin-right:0px;
+}
+#scroll div.footnote span>img{
+	vertical-align:text-top;
+	margin-right:1px;
+	padding-top:1px;
+}
+
+.title{
+	position:relative;
+	top:-2px;
+	left:0px;
+	background:#5a96c8;
+	width:100%;
+	height:87px;
+	color:white;
+	padding-left:1px;
+}
+
+.title span.cat{
+  position: absolute;
+  left:15px;
+  top:10px;
+  font-size:13px;
+}
+.title span.r{
+  left:auto;
+  right:15px;
+}
+.title span .t1{
+  font-size: 17.958px;
+  font-family: "黑体";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 15px;
+  top: 38px;
+}
+.title span .t2{
+  font-size: 14px;
+  font-family: "Helvetica Nueue";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 15px;
+  top: 60px;
+}
+.title span.more{
+  font-size: 11.972px;
+  font-family: "黑体";
+  color: #b6deff;
+  position: absolute;
+  left:auto;
+  right: 15px;
+  top: 61px;
+}
+#scroll div.mask{
+	height:633px;
+	width:370px;
+	background:white;
+}
+#scroll div.mask>p{
+	color:#444444;
+	font-size:14px;
+	font-family:"黑体";
+	width:323px;
+	height:194px 158;
+  line-height: 1.714;
+	padding:18px 23px 18px 24px;
+}
+#scroll div.mask>p>span{
+  display:block;
+  text-indent: 24px;
+  text-align: justifyLeft;
+}
+#scroll div.mask>p.detail{
+	color:#333333;
+	font-size:12px;
+	height:auto;
+	position:absolute;
+	top:600px;
+  text-indent: 24px;
+  text-align: justifyLeft;
+}
+#scroll div.mask>div{
+	background:#e2e2e2;
+	position:absolute;
+	top:515px;
+	height:85px;
+	width:370px;
+}
+#scroll div.mask>img{
+	position:relative;
+	top:-2px;
+}
+div.mask>div>img{
+	position:absolute;
+	top:12px;
+	right:22px;
+	left:auto;
+}
+div.mask>div>span{
+	display:block;
+	position:relative;
+	left:23px;
+	top:10px;
+}
+div.mask>div>span:nth-child(1){
+	font-family:"黑体";
+	font-size:12px;
+	color:#3399cc;
+}
+div.mask>div>span:nth-child(2){
+	font-size:18px;
+	font-family:"黑体";
+	color:#4e4e4e;
+	top:18px;
+}
+div.mask>div>span:nth-child(3){
+	font-size:14px;
+	font-family:"Helvetica Nueue";
+	color:#4e4e4e;
+	top:20px;
+}

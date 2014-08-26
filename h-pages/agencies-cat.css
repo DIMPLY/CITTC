@@ -1,0 +1,80 @@
+
+
+@media(max-height:985px){
+}
+
+#header .nav li:nth-child(3)
+{
+	color:rgb(160,160,160);
+}
+
+#list-body{
+	width:779px;
+	height:967px;
+	margin:31px 42px 39px;
+	float:left;
+}
+
+#list-side{
+	width:325px;
+	height:978px;
+	float:left;
+	margin:59px 47px auto 32px;
+}
+
+ul.companies{
+	width:780px;
+	height:928px;
+	margin-top:16px;
+	margin-bottom:3px;
+	margin-left:5px;
+	margin-right:0;
+	clear:both;
+	overflow:hidden;
+}
+
+ul.companies>li{
+	width:171px;
+	height:165px;
+	border:1px solid #b8b8b8;
+	float:left;
+	margin-right:8px;
+	padding:0 7px;
+	margin-bottom:8px;
+}
+
+ul.companies>li>h4{
+	width:171px;
+	height:51px;
+	padding-top:9px;
+	font:"黑体" 16px;
+	color:#267bc0;
+	line-height: 1.5;
+	text-align: left;
+}
+
+ul.companies>li>img{
+	float:left;
+}
+ul.companies>li>p{
+	padding-top:7px;
+	height:14px;
+	font:14px "黑体";
+	color:#30363d;
+}
+ul.companies>li>p:last-child{
+	clear:left;
+	border-top:1px solid #e1e1e1;
+	color:#555555;
+	font-size:12px;
+}
+
+#list-side>ul>li{
+	width:85px;
+	height:21px;
+	float:left;
+	font:14px "黑体";
+	padding-top:15px;
+	padding-left:1px;
+	color:#3b3b3b;
+}

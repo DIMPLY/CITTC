@@ -1,0 +1,254 @@
+/* CSS Document */
+#hblock2 li:last-child>a{
+	background:url(../images/header_content4_on.png);
+}
+
+#whiteblock{
+	width:1172px;
+	height:741px;
+	left:218px;
+	top:136px;
+	position:absolute;
+	background:white;
+}
+
+#whiteblock>*{
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+}
+
+#whiteblock>#step1{
+	display:block;
+}
+
+#whiteblock>*>img{
+	margin-top:22px;
+}
+
+#step1>div{
+	margin-bottom:23px;
+	margin-left:100px;
+	clear:left;
+}
+
+#step1>div>span{
+	margin-bottom:23px;
+	margin-right:10px;
+	font:16px "黑体";
+	color:#1c1c1c;
+}
+
+#step1>div>img{
+	vertical-align:middle;
+	margin-right:8px;
+}
+
+input.verification[type=text]{
+	margin-left:8px;
+	vertical-align:middle;
+	width:67px;
+}
+
+#step1>div:nth-of-type(1){
+	margin-top:54px;
+	margin-bottom:0;
+}
+
+#step1>div:nth-of-type(1) a{
+	display:inline-block;
+	padding-top:4px;
+	padding-left:15px;
+	width:50px;
+	height:28px;
+	background:url(unselected.png) no-repeat;
+	margin-right:19px;
+	font:16px "黑体";
+	color:#1c1c1c;
+}
+#step1>div:nth-of-type(1) a.selected{
+	background:url(selected.png) no-repeat;
+	color:white;
+}
+
+
+#step1>label{
+	display:block;
+	margin-top:18px;
+	margin-bottom:36px;
+	color:#1c1c1c;
+	font:14px "黑体";
+	margin-right:12px;
+	float:left;
+}
+#step1>label.group{
+	display:none;
+}
+#step1>label:first-of-type{
+	margin-left:196px;
+}
+#step1>label:nth-of-type(6){
+	margin-left:196px;
+}
+input[type=radio]{
+	-webkit-appearance:none;
+	appearance:none;
+	width:15px;
+	height:15px;
+	border:1px solid #515151;
+	border-radius:50%;
+	margin-right:3px;
+	vertical-align:text-top;
+}
+input[type=radio]:checked{
+	background:#515151;
+}
+
+input[type=text],input[type=password],select,option{
+	width:269px;
+	height:37px;
+	border:1px solid #8a8a8a;
+	text-indent:11px;
+	font:16px "黑体";
+	color:#acacac;
+}
+input[type=text]:focus,input[type=password]:focus,select:focus{
+	outline:none;
+	border:1px solid #67a3d8;
+}
+input[type=checkbox]{
+	width:19px;
+	height:19px;
+	border:none;
+	-webkit-appearance: none;
+	appearance: none;
+	background:url(unchecked.png);
+	vertical-align:text-bottom;
+}
+input[type=checkbox]:checked{
+	background:url(checked.png);
+}
+select,option{
+	-webkit-appearance:none;
+	appearance:none;
+	width:82px;
+	height:26px;
+	font-size:14px;
+	color:#1c1c1c;
+}
+select:last-child,select:last-child>option{
+	width:127px;
+}
+button{
+	cursor:pointer;
+	background:url(login.png);
+	width:328px;
+	height:48px;
+	-webkit-appearance:none;
+	border:none;
+	margin-top:20px;
+}
+#login>p{
+	float:right;
+	margin-right:26px;
+	color:#63a1d7;
+	font:14px "黑体";
+}
+#login>p>a{margin:7px;}
+
+#step1>div>a,#step1>label>a{
+	margin-left:8px;
+	color:#63a1d7;
+	font:14px "黑体";
+}
+
+#step1>label:last-of-type{
+	margin-left:196px;
+	float:none;
+}
+
+#button-regist{
+	display:block;
+	margin-left:196px;
+	cursor:pointer;
+}
+
+#step1>div#right-detail{
+	position:absolute;
+	left:836px;
+	top:114px;
+	width:271px;
+	height:538px;
+	margin:0;
+	clear:none;
+}
+
+#step1>div#right-detail>img{
+	float:left;
+}
+#step1 div.info{
+	margin-left:33px;
+	margin-bottom:37px;
+	padding-top:12px;
+	padding-left:27px;
+	padding-right:15px;
+	width:196px;
+	height:47px;
+	background:url(right-info.png);
+	color:white;
+	font:14px "黑体";
+}
+#right-detail>ul>li{
+	list-style:square inside;
+	color:#63a1d7;
+	font-size: 14px;
+	font-family: "黑体";
+	text-align: left;
+	line-height:2;
+}
+#right-detail>ul>li>span{
+	color: rgb(77, 77, 77);
+}
+#step2>*{
+	text-align:center;
+}
+#step2>a{
+	display:block;
+	margin-top:82px;
+}
+#step2{
+	color:#4d4d4d;
+	font-family:"黑体";
+}
+#step2>h2{
+	font-size:30px;
+	margin-top:167px;
+}
+#step2>p{
+	font-size:20px;
+	margin-top:76px;
+	line-height: 2;
+	text-align:left;
+	width:645px;
+	padding-left:50%;
+	margin-left:-322px;
+}
+h2>img{
+	vertical-align:middle;
+}
+#step3>*{
+	text-align:center;
+}
+#step3>a{
+	display:block;
+	margin-top:139px;
+}
+#step3{
+	color:#4d4d4d;
+	font-family:"黑体";
+}
+#step3>h2{
+	font-size:30px;
+	margin-top:224px;
+}

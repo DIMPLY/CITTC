@@ -1,0 +1,74 @@
+/* CSS Document */
+
+#scroll div.items li>div>img{
+	margin-left:-1px;
+	margin-top:-1px;
+}
+
+#scroll div.mask {
+  background:white;
+  opacity: 0.902;
+  position: relative;
+  left:0;
+  top: -38px;
+  width: 370px;
+  height: 131px;
+  z-index: 30;
+}
+#scroll div.mask>p{
+	width:334px;
+	height:21px;
+  font-size: 16px;
+  font-family: "黑体";
+  color: rgb(28, 28, 28);
+  padding-top:7px;
+  padding-left:20px;
+}
+#scroll div.mask p>span:nth-child(2){
+	padding-top:4px;
+	float:right;
+	font-size:13px;
+}
+#scroll div.mask .detail{
+  border-top:1px #3c73a0 solid;
+  background:white;
+  
+  font-size: 12px;
+  font-family: "黑体";
+  color: rgba(20, 20, 20, 0.8);
+  line-height: 1.5;
+  text-align: justifyLeft;
+  text-indent: 24px;
+  
+  padding:10px 23px;
+  width: 324px;
+  height: 48px;
+}
+#scroll div.mask div.footnote{
+	width:356px;
+	height:20px;
+	background:#315d8c;
+	position:absolute;
+	bottom:0;
+	
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height:auto;
+  text-indent:0;
+  text-align: left;
+  
+  padding-top:1px;
+  padding-left:14px;
+}
+#scroll div.mask div.footnote span{
+	margin-right:35px;
+}
+#scroll div.mask div.footnote span:last-child{
+	margin-right:0px;
+}
+#scroll div.mask div.footnote span>img{
+	vertical-align:text-top;
+	margin-right:1px;
+	padding-top:1px;
+}

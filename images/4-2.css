@@ -1,0 +1,62 @@
+/* CSS Document */
+
+#infolist{
+	width:395px;
+	height:397px;
+	position:absolute;
+	top:134px;
+	left:995px;
+	border:1px #3c73a0 solid;
+	background:white;
+}
+#infolist ul{
+	height:360px;
+	width:395px;
+}
+#infolist li{
+  font-size: 12px;
+  font-family: "黑体";
+  margin:16px 15px 3px;
+  text-align: left;
+  padding-bottom:4px;
+  border-bottom:2px #efefef solid;
+  height:95px;
+  width:361px;
+}
+#infolist li:last-child{
+	border-bottom:none;
+}
+
+#infolist p{
+	width:291px;
+	height:45px;
+  color:#2d2d2d;
+  float:left;
+  padding-top:4px;
+}
+#infolist div.right{
+	float:right;
+	width:48px;
+	height:75px;
+	color:#4e4e4e;
+  padding-top:4px;
+}
+#infolist div.right img{
+	position:relative;
+	top:20px;
+}
+#infolist  li span.more{
+	display:block;
+	color:#8ac1f0;
+	clear:left;
+  padding-top:4px;
+}
+#infolist h5{
+	width:361px;
+	height:20px;
+  font-size: 14px;
+  color: black;
+}
+#infolist p:nth-child(3) span{
+	line-height:16px;
+}

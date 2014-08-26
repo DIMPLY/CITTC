@@ -1,0 +1,75 @@
+#scroll div.title span.more img{position:relative; top:-4px;}
+
+#scroll div.footnote{
+	width:353px;
+	height:32px;
+	background:#315d8c;
+	position:absolute;
+	bottom:0;
+	
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+  color: rgb(255, 255, 255);
+  line-height:auto;
+  text-indent:0;
+  text-align: left;
+  
+  padding-top:10px;
+  padding-left:17px;
+}
+#scroll div.footnote span{
+	margin-right:34px;
+}
+#scroll div.footnote span:last-child{
+	margin-right:0px;
+}
+#scroll div.footnote span>img{
+	vertical-align:text-top;
+	margin-right:1px;
+	padding-top:1px;
+}
+#scroll div.mask{
+	height:236px;
+	background:white;
+}
+
+#scroll div.mask>p{
+	width:344px;
+	padding:13px 13px;
+	height:112px;
+	border-bottom:2px #00bcde solid;
+}
+
+#scroll div.mask>p>span{
+	display:block;
+	font-size:16px;
+	font-family:"黑体";
+	line-height:28px;
+}
+#scroll div.mask>p>span:nth-child(1){
+	color:#8d8d8d;
+	line-height:31px;
+}
+#scroll div.mask>p>span:nth-child(2){
+	font-size:18px;
+}
+#scroll div.mask>p>span:nth-child(4){
+	font-size:12px;
+}
+#scroll div.detail>img{
+	float:left;
+	margin:0 10px 0 13px;
+}
+#scroll div.detail{
+	font-family:"黑体";
+}
+#scroll div.detail>h5{
+	margin-top:14px;
+	margin-bottom:2px;
+	font-size:16px;
+}
+#scroll div.detail>p{
+	font-size:10px;
+	text-indent:2.1em;
+	margin-right:10px;
+}

@@ -1,0 +1,74 @@
+#header .nav li:nth-child(2) {
+color: #63A1D7;
+}
+
+#service-title{
+	width:1176px;
+	height:61px;
+	position:absolute;
+	left:218px;
+	top:133px;
+	background:url(services.png);
+}
+#scroll {
+    border:none;
+    width:1266px;
+    height:655px;
+	position:absolute;
+	left:173px;
+	top:198px;
+}
+#scroll div.items {
+	overflow: hidden; 
+	position: relative; 
+	visibility: visible;
+    height:655px;
+    float:left;
+    width:1176px !important;
+}
+#scroll div.scroll_demo{
+	 position: absolute;
+	 width: 2656px;
+	 left: 0px;
+}
+#scroll div.items li {
+    display:block;
+    float:left;
+    width:288px;
+    height:653px;
+	margin-right:5px;
+	border:1px #3c73a0 solid;
+}
+#scroll a.prev, a.next {
+    background:url(../images/left.png) no-repeat 0 137px;
+    display:block;
+    width:45px;
+    height:655px;
+    float:left;
+}
+#scroll a.next {
+    background-image:url(../images/right.png);
+}
+#scroll a.prev:focus, a.next:focus{
+	outline:none;
+	border:none;
+}
+#scroll div.items li>div{
+	width:100%;
+	height:100%;
+	background:white;
+}
+
+#scroll div.items li>div>h2{
+	font:18px "黑体";
+	color:#207fcc;
+	margin-top:28px;
+	margin-left:21px;
+	margin-bottom:20px;
+}#scroll div.items li>div>p{
+	font:12px "黑体";
+	color:#373737;
+	margin-left:21px;
+	margin-right:21px;
+  line-height: 1.75;
+}
